@@ -255,9 +255,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
 
 <script>
 
-/* =========================
-   BARRE DE PROGRESSION
-========================= */
+
 
 function updateProgress(step){
 
@@ -284,9 +282,6 @@ function updateProgress(step){
 }
 
 
-/* =========================
-   STEP 1
-========================= */
 
 function next1(){
 
@@ -307,9 +302,6 @@ function next1(){
 }
 
 
-/* =========================
-   STEP 2
-========================= */
 
 function next2(){
 
