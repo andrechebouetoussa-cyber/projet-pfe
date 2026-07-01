@@ -196,7 +196,7 @@ button{
 
 <body>
 
-<nav class="navbar">🏥 Clinique Atlas Care</nav>
+<nav class="navbar"> Clinique Guenin</nav>
 
 <h2>🩺 Consultation médicale</h2>
 

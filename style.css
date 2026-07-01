@@ -395,7 +395,10 @@ h1{
 }
 
 .footer-section h3 {
-  color: white;
+  color: #0a7c6d;
+}
+.footer-section h2 {
+  color:  #0a7c6d;
 }
 
 .footer-section p,
@@ -422,7 +425,7 @@ h1{
   color:  #0a7c6d;
 }
 .footer-section p{
-    color: black;
+    color: white;
 }
 
 .footer-section a {
@@ -1132,5 +1135,121 @@ h1{
 
 .step.active{
     display:block;
+}
+
+/* =======================
+   ANIMATIONS
+======================= */
+
+.hidden{
+    opacity:0;
+    transform:translateY(70px);
+    transition:all .8s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Cartes */
+
+.service-card,
+.section1-card,
+.stat-box,
+.step,
+.box,
+.location{
+
+    transition:.4s;
+}
+
+.service-card:hover,
+.section1-card:hover,
+.stat-box:hover,
+.step:hover,
+.box:hover,
+.location:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* Boutons */
+
+button,
+.login-btn{
+
+    transition:.3s;
+}
+
+button:hover,
+.login-btn:hover{
+
+    transform:scale(1.05);
+}
+
+button:active,
+.login-btn:active{
+
+    transform:scale(.95);
+}
+
+/* Google Maps */
+
+.location iframe{
+
+    transition:.6s;
+}
+
+.location:hover iframe{
+
+    transform:scale(1.02);
+}
+
+/* Navbar */
+
+.navbar{
+
+    transition:.4s;
+}
+
+.navbar.scroll{
+
+    background:white;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+/* Titre */
+
+h1,h2{
+
+    transition:.4s;
+}
+
+.show h1,
+.show h2{
+
+    animation:fadeDown .8s ease;
+}
+
+@keyframes fadeDown{
+
+    from{
+
+        opacity:0;
+        transform:translateY(-20px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
 }
 

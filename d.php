@@ -96,8 +96,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
    
     <nav class="navbar">
     <div class="logo-container">
-        <img src="images/logo.png" alt="Clinique Atlas Care" class="logo">
-        <span class="logo-text">Clinique Atlas Care</span>
+        <img src="images/logo3.png" alt="Clinique Guenin" class="logo">
+        <span class="logo-text">Clinique Guenin</span>
     </div>
 
     <ul class="menu">
@@ -180,7 +180,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
   <div class="footer-container">
 
     <div class="footer-section">
-      <h2>Clinique Atlas Care</h2>
+      <h2>Clinique Guenin</h2>
       <p>
         Découvrez un établissement médical où les besoins et le bien-être des patients sont prioritaires, sous la supervision d'une équipe de médecins qualifiés et expérimentés.
       </p>

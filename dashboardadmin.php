@@ -221,7 +221,7 @@ html, body{
   <!-- CONTENT -->
   <div class="content">
 
-  <h1><center>Clinique Atlas Care</center></h1>
+  <h1><center>Clinique Guenin</center></h1>
   <h1>Bonjour 👋 <?= htmlspecialchars($_SESSION['nom']); ?></h1>
   <p>Gérez tout le système</p>
 

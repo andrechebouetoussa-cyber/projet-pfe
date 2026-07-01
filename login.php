@@ -399,8 +399,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   <nav class="navbar">
     <div class="logo-container">
-        <img src="images/logo.png" alt="Clinique Atlas Care" class="logo">
-        <span class="logo-text">Clinique Atlas Care</span>
+        <img src="images/logo3.png" alt="Clinique Guenin" class="logo">
+        <span class="logo-text">Clinique Guenin</span>
     </div>
 
 </nav>
@@ -432,49 +432,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     
-    <footer class="footer">
-  <div class="footer-container">
-
-    <div class="footer-section">
-      <h2>Clinique Atlas Care</h2>
-      <p>
-        Découvrez un établissement médical où les besoins et le bien-être des patients sont prioritaires, sous la supervision d'une équipe de médecins qualifiés et expérimentés.
-      </p>
-    </div>
-
-    <div class="footer-section">
-      <h3>Liens rapides</h3>
-      <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="Rendez-vous.php">Rendez-vous</a></li>
-
-      </ul>
-    </div>
-
-    <div class="footer-section">
-      <h3>Contact</h3>
-      <p>📍 Meknès, Maroc</p>
-      <p>📞 <a href="tel:+212707237182">+212 707 237 182</a></p>
-      <p>📧 <a href="mailto:andrechebouetoussa@gmail.com">andrechebouetoussa@gmail.com</a></p>
-    </div>
-
-    <div class="footer-section">
-      <h3>Newsletter</h3>
-      <p>Inscrivez-vous pour recevoir nos conseils et actualités.</p>
-
-      <form>
-        <input type="email" placeholder="Entrez votre email" required>
-        <button type="submit">S'inscrire</button>
-      </form>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 Clinique Atlas Care | Tous droits réservés</p>
-  </div>
-</footer>
-
+   
 </body>
 </html>
 

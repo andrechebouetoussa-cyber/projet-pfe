@@ -199,7 +199,7 @@ body {
 
   <!-- CONTENT -->
   <div class="content">
-    <h1><center> Clinique Atlas Care</center></h1>
+    <h1><center> Clinique Guenin</center></h1>
     <h1>Bonjour 👋 <?php echo htmlspecialchars($_SESSION['nom']); ?></h1>
     <p>Effectuez vos actions en toute sécurité</p>
 
@@ -207,7 +207,7 @@ body {
 
       <div class="card">
         <div class="icon">🏥</div>
-         <h3>Clinique Atlas Care</h3>
+         <h3>Clinique Guenin</h3>
         <p>Explorez notre clinique , la santé, au coeur de l innovation</p>
         <a href="Rendez-vous.php" class="btn">Prendre rendez-vous</a>
         <a href="index.php" class="btn">voir plus</a>

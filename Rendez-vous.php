@@ -52,8 +52,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rendez-vous</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 <style>
+          .hero-specialites{
+    width:100%;
+    min-height:320px;
+    background:linear-gradient(#0f172a);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+    color:#fff;
+    margin-bottom:60px;
+}
+
+.hero-content{
+    max-width:800px;
+    
+}
+
+.hero-content h1{
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:22px;
+    line-height:1.8;
+    opacity:.95;
+}
     /* =========================
    PROGRESS BAR
 ========================= */
@@ -140,13 +171,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
   
     <nav class="navbar">
     <div class="logo-container">
-        <img src="images/logo.png" alt="Clinique Atlas Care" class="logo">
-        <span class="logo-text">Clinique Atlas Care</span>
+        <img src="images/logo3.png" alt="Clinique Guenin" class="logo">
+        <span class="logo-text">Clinique Guenin</span>
     </div>
 
     <ul class="menu">
         <li><a href="index.php">Accueil</a></li>
+        <li><a href="service.php">Services</a></li>
         <li><a href="Rendez-vous.php">Rendez-vous</a></li>
+        <li><a href="contacts.php">Contact</a></li>
     </ul>
     <button class="menu-toggle" aria-label="Toggle menu">
         <span></span>
@@ -159,10 +192,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
 </nav>
 
 
+<section class="hero-specialites"  data-aos="fade-up">
+    <div class="hero-content">
+        <h1>Prendre Rendez-vous</h1>
+        <p>Réservez votre consultation en quelques clics. Choisir votre spécialité et votre date</p>
+    </div>
+</section>
 
 
-
-<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST"  data-aos="fade-up">
 <h2>Prenez  rendez-vous en quelques clics</h2>
 
 
@@ -250,6 +288,49 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "confirmer") {
 </div>
 
 </form>
+
+<footer class="footer"  data-aos="fade-up">
+  <div class="footer-container">
+
+    <div class="footer-section">
+      <h2>Clinique Guenin</h2>
+      <p>
+        Découvrez un établissement médical où les besoins et le bien-être des patients sont prioritaires, sous la supervision d'une équipe de médecins qualifiés et expérimentés.
+      </p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Liens rapides</h3>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Rendez-vous</a></li>
+
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>📍 Pointe-Noire, Congo Brazzaville</p>
+      <p>📞 <a href="tel:+242055756773">+242 05 575 6773</a></p>
+      <p>📧 <a href="mailto:andrechebouetoussa@gmail.com">andrechebouetoussa@gmail.com</a></p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Inscrivez-vous pour recevoir nos conseils et actualités.</p>
+
+      <form>
+        <input type="email" placeholder="Entrez votre email" required>
+        <button type="submit">S'inscrire</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Clinique Guenin | Tous droits réservés</p>
+  </div>
+</footer>
 
 
 
@@ -414,5 +495,15 @@ updateProgress(1);
 
 </script>
 <script src="script.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // durée de l’animation en ms
+    once: true, // l’animation se fait une seule fois
+  });
+</script>
 </body>
 </html>

@@ -187,7 +187,7 @@ body{
 
 <!-- SIDEBAR -->
 <div class="sidebar">
-  <h2>Médecin</h2>
+    <h2>Espace <br><span>Medecin</span></h2>
   <ul>
     <li><a href="dashboard.php">🏠 Dashboard</a></li>
     <li><a href="RDV1.php">📅 Rendez-vous</a></li>
@@ -204,7 +204,12 @@ body{
     👤 <?= htmlspecialchars($_SESSION['nom'] ?? 'Médecin') ?>
   </div>
 
-  <h1>Dashboard Médecin</h1>
+ 
+ <!-- CONTENT -->
+  <div class="content">
+    <h1><center> Clinique Guenin</center></h1>
+    <h1>Bonjour 👋 <?php echo htmlspecialchars($_SESSION['nom']); ?></h1>
+    <p>Effectuez vos actions en toute sécurité</p>
 
   <div class="stats-grid">
 

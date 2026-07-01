@@ -139,7 +139,7 @@ h2{
 <body>
 
 <div class="navbar">
-    🏥 Clinique Atlas Care
+    🏥 Clinique Guenin
 </div>
 
 <div class="container">

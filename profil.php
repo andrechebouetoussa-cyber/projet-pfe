@@ -130,8 +130,8 @@ h1{
 
 <nav class="navbar">
     <div class="logo-container">
-        <img src="images/logo.png" alt="Clinique Atlas Care" class="logo">
-        <span class="logo-text">Clinique Atlas Care</span>
+        <img src="images/logo3.png" alt="Clinique Guenin" class="logo">
+        <span class="logo-text">Clinique Guenin</span>
     </div>
 </nav>
 <div class="container">

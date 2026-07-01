@@ -91,8 +91,8 @@ if ($user_role == 'medecin') {
 <body>
    <nav class="navbar">
     <div class="logo-container">
-        <img src="images/logo.png" alt="Clinique Atlas Care" class="logo">
-        <span class="logo-text">Clinique Atlas Care</span>
+        <img src="images/logo3.png" alt="Clinique Guenin" class="logo">
+        <span class="logo-text">Clinique Guenin</span>
     </div>
 </nav>
     <h1>👤 Liste des patients</h1>
